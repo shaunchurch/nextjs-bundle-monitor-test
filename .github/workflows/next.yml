@@ -16,5 +16,4 @@ jobs:
           install_command: "npm install"
           build_command: "npm run build"
           dist_path: ".next"
-          filesystem: "saysno"
           token: ${{ secrets.GITHUB_TOKEN }}

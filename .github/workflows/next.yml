@@ -17,5 +17,4 @@ jobs:
           build_command: "npm run build"
           dist_path: ".next"
           workspace: ${{ github.workspace }}
-          onemore: "time"
           token: ${{ secrets.GITHUB_TOKEN }}
